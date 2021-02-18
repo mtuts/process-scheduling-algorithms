@@ -9,3 +9,7 @@ We develop CPU process scheduling simulator including following algorithms:
 - Round Robin
 - Priority
 - Implementation of grant chart
+
+
+Wolk through video:
+https://www.youtube.com/watch?v=uFYJh22NQb4
