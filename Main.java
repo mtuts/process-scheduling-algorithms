@@ -1,9 +1,9 @@
 public class Main {
 
   public static void main(String[] args) {
-    int[] bt =  {10, 2, 3, 2}; // {5, 3, 8, 6}
-    int[] at =  {0, 1, 2, 5}; // {0, 1, 2, 3}
-    int[] pp = {1, 2, 1, 3};  // process priority
+    int[] bt = { 5, 3, 2, 2, 3}; // {5, 3, 8, 6}
+    int[] at = {10, 3, 0, 1, 0}; // {0, 1, 2, 3}
+    int[] pp = { 1, 1, 2, 2, 3};  // process priority
     Process[] processes = new Process[bt.length];
     for (int i = 0; i < processes.length; i++) {
       processes[i] = new Process(i + 1, bt[i], at[i]);
